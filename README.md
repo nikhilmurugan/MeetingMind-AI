@@ -80,33 +80,86 @@ MeetingMind AI transforms meeting recordings into structured business intelligen
 
 ## Project Structure
 
-backend/
-
-frontend/
-
-screenshots/
-
-architecture/
-
-demo-audio/
-
-README.md
+```text
+MeetingMind-AI/
+├── frontend/              React + Tailwind CSS + Vite
+├── backend/               FastAPI backend and AI pipeline
+├── architecture/          System architecture diagram
+├── screenshots/           UI screenshots used in README
+├── demo-audio/            Sample meeting recording
+├── demo-video/            Complete application walkthrough
+├── .env.example           Environment variable template
+└── README.md
+```
 
 ---
 
-## Local Setup
+# Quick Start
 
-### Backend
+Follow these steps to run MeetingMind AI locally.
+
+## 1. Clone the repository
+
+```bash
+git clone https://github.com/nikhilmurugan/MeetingMind-AI.git
+cd MeetingMind-AI
+```
+
+## 2. Backend Setup
+
+```bash
+cd backend
+
+python -m venv venv
+
+venv\Scripts\activate
 
 pip install -r requirements.txt
+```
 
+Create a `.env` file from `.env.example`.
+
+```env
+OPENROUTER_API_KEY=your_api_key_here
+```
+
+Start FastAPI.
+
+```bash
 python -m uvicorn main:app --reload
+```
 
-### Frontend
+Backend runs on:
+
+```text
+http://localhost:8000
+```
+
+## 3. Frontend Setup
+
+Open another terminal.
+
+```bash
+cd frontend
 
 npm install
 
 npm run dev
+```
+
+Frontend runs on:
+
+```text
+http://localhost:5173
+```
+
+## 4. Test the Application
+
+1. Open `http://localhost:5173`
+2. Upload the sample audio from `demo-audio/`.
+3. Generate transcript.
+4. View executive summary.
+5. Export PDF / JSON / TXT reports.
 
 ---
 
