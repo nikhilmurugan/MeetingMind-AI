@@ -27,29 +27,43 @@ MeetingMind AI transforms meeting recordings into structured business intelligen
 
 ## Screenshots
 
-### Landing Page
+### 1. Landing Page
 
-(Add image here)
+![Landing Page](screenshots/01-homepage-hero.png)
 
-### Dashboard
+### 2. Upload Meeting Audio
 
-(Add image here)
+![Upload Meeting Audio](screenshots/02-upload-meeting-audio.png)
 
-### Meeting Analytics
+### 3. AI Processing Pipeline
 
-(Add image here)
+![Processing Pipeline](screenshots/03-processing-pipeline.png)
 
-### History Page
+### 4. Dashboard Overview
 
-(Add image here)
+![Dashboard Overview](screenshots/04-dashboard-overview.png)
+
+### 5. Transcript, Action Items & Risks
+
+![Action Items Dashboard](screenshots/05-dashboard-action-items.png)
+
+### 6. Meeting History
+
+![Meeting History](screenshots/07-meeting-history.png)
+
+### 7. Features Section
+
+![Features Section](screenshots/08-features-section.png)
+
+### 8. PDF Export Report
+
+![PDF Export](screenshots/09-pdf-report-export.png)
 
 ---
 
 ## System Architecture
 
-(Add architecture image here)
-
----
+![MeetingMind AI Architecture](architecture/system-architecture.png)
 
 ## Tech Stack
 
@@ -105,6 +119,27 @@ Copy `.env.example` to `.env` and add your own OpenRouter API key.
 ## Demo Audio
 
 A sample sprint planning meeting audio is included inside `demo-audio/`.
+
+---
+
+## Demo Video
+
+A complete demonstration of the MeetingMind AI workflow is included in the repository.
+
+**Location**
+
+demo-video/MeetingMind_AI_Demo.mp4
+
+The video demonstrates:
+
+- Landing Page
+- Meeting Audio Upload
+- AI Processing Pipeline
+- Dashboard & Executive Summary
+- Transcript Timeline
+- Action Items & Risks
+- Meeting History
+- PDF / JSON / TXT Export
 
 ---
 
