@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+
+# Testing
+coverage/
+
+# Production / Build
+dist/
+build/
+outputs/
+uploads/*
+!uploads/.gitkeep
+
+# Environment & local files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+meetingmind.db
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
