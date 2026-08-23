@@ -1,4 +1,4 @@
-# 🧠 MeetingMind AI
+# MeetingMind AI
 
 ### AI Meeting Intelligence Platform
 
@@ -12,16 +12,16 @@ MeetingMind AI transforms meeting recordings into structured business intelligen
 
 ## Features
 
-* 🎙️ Whisper Speech-to-Text with timestamps
-* 🧠 AI Executive Summary
-* ✅ Action Item Extraction
-* 📊 Speaker Participation Analytics
-* ⚠️ Risk & Blocker Detection
-* 📅 Next Step Checklist
-* 📄 PDF / JSON / TXT Export
-* 🌗 Light & Dark Theme
-* 📱 Responsive Dashboard
-* 🗂️ Meeting History
+*  Whisper Speech-to-Text with timestamps
+*  AI Executive Summary
+*  Action Item Extraction
+*  Speaker Participation Analytics
+*  Risk & Blocker Detection
+*  Next Step Checklist
+*  PDF / JSON / TXT Export
+*  Light & Dark Theme
+*  Responsive Dashboard
+*  Meeting History
 
 ---
 
